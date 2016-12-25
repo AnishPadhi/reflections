@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I could see that the diff is a very useful command. It has a very specific 
+    format of representation. One limitation that I found was that, it doesn't 
+    the differences between characters in a single line. It only shows the lines
+    that are different. Its overall a useful tool, is what I think.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having an old version(copy) of a file is of great help. When we modify a 
+    certain piece of text, we don't usually keep the old copy of it. So what do 
+    we lose... ? is that in case at some ppoint we would like to revert back to 
+    that old file, we wouldn't have it co we didn't save it. Having the entire 
+    history of the changes made to a file, will make things easier if we ever 
+    wanted to go back to an older version of the file.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+    	I know when my change is ready for a new version.
+    	I need not worry about incomplete versions, that would have been created
+    Cons
+    	In case of a crash of the system, there is no recent version available
+    	Need not click the commit button/command, it happens automatically
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Well, saving multiple files in one commit has its pros and cons.
+    Pros
+    	I takes up huge storage to save all files, even if most of the files 
+    	haven't been changed.
+    Cons
+    	All files are available for view/use at a single point.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Really useful and easy-to-remember commands.
+    	git log (then press enter)
+    	git diff <id1> <id2> (then press enter)
+    Both these commands only works if you are currently inside the repository(repo).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Really a useful tool. Does the job for me...!!!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Of-course to code and use the benefits of GIT...!!!
