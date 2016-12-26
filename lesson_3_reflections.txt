@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+	When there are major updates in a project whih is ready to be shared in the public 
+	domain, also sometimes its a better practice to just keep saving it in the github 
+	server so that, in an unforeseen circumstance of system crash and all files on the
+	system getting removed you still have a copy in the cloud server of github.
