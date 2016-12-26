@@ -13,14 +13,36 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	
+	You can use "git diff" to know what are the differences between working dir 
+	and the staging area. Now you can use "git diff --staged" to know the differences
+	b/w the staging area and the commit version. So you can make out which all
+	changes made in the wrking directory are ready for commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	The branching is a good technique to separate experimental changes in codes 
+	even while keeping the main code intact. I feel for me, its way too-much useful.
+
 How do the diagrams help you visualize the branch structure?
+
+	The best way to understand git branching is through these type of tree-diagrams.
+	It just sets up a clear understanding of the topic.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Result will be a new commit wih changes from both branches incorporated into one.
+	Diagrammatic representations are always easy to understand, only if we have 
+	a good picture of what we are doing then only we can do the right thing...!!!
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Where there are no conflicts the automatic merge is a smart way of doing the
+	merge. But when a conflict arises, its better to manually make the change 
+	rather than use automatic merge. Coz as of this time artificial intelligence 
+	is still at its infancy. Until the computer starts understanding individual
+	code fragments and deciding for itself, what is correct... manual conflict
+	resolution is the thing.
